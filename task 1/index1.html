@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/task 1/style1.css">
+    <title>Task 1</title>
+</head>
+<body>
+    <div class="container">
+        <p>Click the button to create an IMG element.</p>
+        <button onclick="myFunction()">Try it</button>
+
+
+        <h1 class="header">Add a new blog</h1>
+    <form action="">
+        <label for="blogTitle">Blog title:</label> <br>
+        <input type="text"
+        placeholder="Blog 4">
+    </form>
+    <div>
+        <form action="">
+        <label for="blogBody">Blog body:</label> <br>
+        <input 
+        type="text" 
+        minlength="2" 
+        maxlength="20"
+        placeholder="Hello, I am a student"
+        id="blogBody">
+        <div class="error"></div>
+        <small>Text has to be between 2 and 20 characters long</small>
+    </form>
+    </div>
+    
+    <form action="">
+        <label for="author">Author:</label> <br>
+        <input 
+         type="text" 
+         placeholder="Nijat"
+         id="author">
+        <div class="error"></div>
+        <small>The author's name is required</small>
+    </form>
+    <form action="">
+        <label for="number">Number:</label> <br>
+        <input 
+        type="number"
+        placeholder="123456789"
+        id="number">
+        <div class="error"></div>
+        <small>A number is required</small>
+    </form>
+    <form action="">
+        <label for="email">Email:</label> <br>
+        <input 
+        type="email" 
+        placeholder="abc@hotmail.com"
+        id="email">
+        <div class="error"></div>
+        <small>Invalid email address</small>
+    </form>
+    <form action="">
+        <button id="btn" type="submit">Save</button>
+    </form>
+    </div>
+    
+    <script src="/task 1/js1.js"></script>
+</body>
+</html>
